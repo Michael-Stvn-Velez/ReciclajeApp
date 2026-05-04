@@ -1,0 +1,6 @@
+@ReciclajeApp.Api_HostAddress = http://localhost:5210
+
+GET {{ReciclajeApp.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

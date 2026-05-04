@@ -1,0 +1,12 @@
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\bin\Debug\net9.0\ReciclajeApp.Infrastructure.deps.json
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\bin\Debug\net9.0\ReciclajeApp.Infrastructure.dll
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\bin\Debug\net9.0\ReciclajeApp.Infrastructure.pdb
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\obj\Debug\net9.0\ReciclajeApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\obj\Debug\net9.0\ReciclajeApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\obj\Debug\net9.0\ReciclajeApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\obj\Debug\net9.0\ReciclajeApp.Infrastructure.AssemblyInfo.cs
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\obj\Debug\net9.0\ReciclajeApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\obj\Debug\net9.0\ReciclajeApp.Infrastructure.dll
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\obj\Debug\net9.0\refint\ReciclajeApp.Infrastructure.dll
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\obj\Debug\net9.0\ReciclajeApp.Infrastructure.pdb
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\obj\Debug\net9.0\ref\ReciclajeApp.Infrastructure.dll
