@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ReciclajeApp.Application\ReciclajeApp.Application.csproj" />
     <ProjectReference Include="..\ReciclajeApp.Infrastructure\ReciclajeApp.Infrastructure.csproj" />
   </ItemGroup>
 

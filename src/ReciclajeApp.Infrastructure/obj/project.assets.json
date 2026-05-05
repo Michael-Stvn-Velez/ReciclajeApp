@@ -464,6 +464,16 @@
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
         }
+      },
+      "ReciclajeApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/ReciclajeApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReciclajeApp.Domain.dll": {}
+        }
       }
     }
   },
@@ -1105,12 +1115,18 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ReciclajeApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ReciclajeApp.Domain/ReciclajeApp.Domain.csproj",
+      "msbuildProject": "../ReciclajeApp.Domain/ReciclajeApp.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.EntityFrameworkCore >= 9.0.6",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.6"
+      "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.6",
+      "ReciclajeApp.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1120,11 +1136,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\POWER\\Reciclaje APP\\BACKEND\\src\\ReciclajeApp.Infrastructure\\ReciclajeApp.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\POWER\\Reciclaje APP\\BACKEND\\src\\ReciclajeApp.Infrastructure\\ReciclajeApp.Infrastructure.csproj",
       "projectName": "ReciclajeApp.Infrastructure",
-      "projectPath": "c:\\Users\\POWER\\Reciclaje APP\\BACKEND\\src\\ReciclajeApp.Infrastructure\\ReciclajeApp.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\POWER\\Reciclaje APP\\BACKEND\\src\\ReciclajeApp.Infrastructure\\ReciclajeApp.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\POWER\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\POWER\\Reciclaje APP\\BACKEND\\src\\ReciclajeApp.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\POWER\\Reciclaje APP\\BACKEND\\src\\ReciclajeApp.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1145,7 +1161,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\POWER\\Reciclaje APP\\BACKEND\\src\\ReciclajeApp.Domain\\ReciclajeApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\POWER\\Reciclaje APP\\BACKEND\\src\\ReciclajeApp.Domain\\ReciclajeApp.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

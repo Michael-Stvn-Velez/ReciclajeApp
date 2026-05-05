@@ -9,7 +9,8 @@
       "ReciclajeApp.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.6",
-          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.6"
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.6",
+          "ReciclajeApp.Domain": "1.0.0"
         },
         "runtime": {
           "ReciclajeApp.Infrastructure.dll": {}
@@ -345,7 +346,15 @@
         }
       },
       "System.Memory/4.5.3": {},
-      "System.Text.Json/9.0.6": {}
+      "System.Text.Json/9.0.6": {},
+      "ReciclajeApp.Domain/1.0.0": {
+        "runtime": {
+          "ReciclajeApp.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
     }
   },
   "libraries": {
@@ -514,6 +523,11 @@
       "sha512": "sha512-h+ZtYTyTnTh5Ju6mHCKb3FPGx4ylJZgm9W7Y2psUnkhQRPMOIxX+TCN0ZgaR/+Yea+93XHWAaMzYTar1/EHIPg==",
       "path": "system.text.json/9.0.6",
       "hashPath": "system.text.json.9.0.6.nupkg.sha512"
+    },
+    "ReciclajeApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

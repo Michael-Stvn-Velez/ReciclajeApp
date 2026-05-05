@@ -10,3 +10,7 @@ C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\obj\Debug\n
 C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\obj\Debug\net9.0\refint\ReciclajeApp.Infrastructure.dll
 C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\obj\Debug\net9.0\ReciclajeApp.Infrastructure.pdb
 C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\obj\Debug\net9.0\ref\ReciclajeApp.Infrastructure.dll
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\bin\Debug\net9.0\ReciclajeApp.Domain.dll
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\bin\Debug\net9.0\ReciclajeApp.Domain.pdb
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\obj\Debug\net9.0\ReciclajeApp.Infrastructure.sourcelink.json
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Infrastructure\obj\Debug\net9.0\Reciclaj.EFCEF19A.Up2Date
