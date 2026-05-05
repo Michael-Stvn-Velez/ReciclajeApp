@@ -1112,12 +1112,36 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "ReciclajeApp.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "ReciclajeApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReciclajeApp.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReciclajeApp.Application.dll": {}
+        }
+      },
+      "ReciclajeApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/ReciclajeApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReciclajeApp.Domain.dll": {}
+        }
+      },
       "ReciclajeApp.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.6",
-          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.6"
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.6",
+          "ReciclajeApp.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ReciclajeApp.Infrastructure.dll": {}
@@ -3148,6 +3172,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "ReciclajeApp.Application/1.0.0": {
+      "type": "project",
+      "path": "../ReciclajeApp.Application/ReciclajeApp.Application.csproj",
+      "msbuildProject": "../ReciclajeApp.Application/ReciclajeApp.Application.csproj"
+    },
+    "ReciclajeApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ReciclajeApp.Domain/ReciclajeApp.Domain.csproj",
+      "msbuildProject": "../ReciclajeApp.Domain/ReciclajeApp.Domain.csproj"
+    },
     "ReciclajeApp.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../ReciclajeApp.Infrastructure/ReciclajeApp.Infrastructure.csproj",
@@ -3158,6 +3192,7 @@
     "net9.0": [
       "Microsoft.AspNetCore.OpenApi >= 9.0.6",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.6",
+      "ReciclajeApp.Application >= 1.0.0",
       "ReciclajeApp.Infrastructure >= 1.0.0"
     ]
   },
@@ -3194,6 +3229,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "C:\\Users\\POWER\\Reciclaje APP\\BACKEND\\src\\ReciclajeApp.Application\\ReciclajeApp.Application.csproj": {
+              "projectPath": "C:\\Users\\POWER\\Reciclaje APP\\BACKEND\\src\\ReciclajeApp.Application\\ReciclajeApp.Application.csproj"
+            },
             "C:\\Users\\POWER\\Reciclaje APP\\BACKEND\\src\\ReciclajeApp.Infrastructure\\ReciclajeApp.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\POWER\\Reciclaje APP\\BACKEND\\src\\ReciclajeApp.Infrastructure\\ReciclajeApp.Infrastructure.csproj"
             }

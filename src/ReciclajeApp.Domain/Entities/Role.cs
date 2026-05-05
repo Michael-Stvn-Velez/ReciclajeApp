@@ -1,0 +1,14 @@
+using ReciclajeApp.Domain.Entities.Permissions;
+
+namespace ReciclajeApp.Domain.Entities;
+
+public class Role{
+    public int Id { get; set; }
+
+    public string Name { get; set; } = string.Empty;
+
+    public string Description { get; set; } = string.Empty;
+
+    public ICollection<Permission> Permissions { get; set; } = new List<Permission>();
+    
+}

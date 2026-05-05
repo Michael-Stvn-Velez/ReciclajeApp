@@ -13,3 +13,4 @@ C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Application\obj\Debug\net9
 C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Application\obj\Debug\net9.0\refint\ReciclajeApp.Application.dll
 C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Application\obj\Debug\net9.0\ReciclajeApp.Application.pdb
 C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Application\obj\Debug\net9.0\ref\ReciclajeApp.Application.dll
+C:\Users\POWER\Reciclaje APP\BACKEND\src\ReciclajeApp.Application\obj\Debug\net9.0\ReciclajeApp.Application.sourcelink.json
