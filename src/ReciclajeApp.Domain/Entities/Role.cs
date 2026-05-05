@@ -1,6 +1,6 @@
 using ReciclajeApp.Domain.Entities.Permissions;
 
-namespace ReciclajeApp.Domain.Entities;
+namespace ReciclajeApp.Domain.Entities.Roles;
 
 public class Role{
     public int Id { get; set; }
