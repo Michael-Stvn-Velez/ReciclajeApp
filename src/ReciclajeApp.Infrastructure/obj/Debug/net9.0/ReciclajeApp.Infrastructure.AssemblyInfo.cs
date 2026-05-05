@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReciclajeApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4480d7fc1a6023978b52a822110caefecd1e28a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a553ccc714bf435eb361128e3069b501ff0ce122")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReciclajeApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReciclajeApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

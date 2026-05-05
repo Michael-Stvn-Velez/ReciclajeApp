@@ -1,3 +1,5 @@
+using ReciclajeApp.Domain.Entities.Roles;
+
 namespace ReciclajeApp.Domain.Entities;
 
 public class User{

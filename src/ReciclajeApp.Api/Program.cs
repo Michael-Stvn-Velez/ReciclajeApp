@@ -3,9 +3,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ReciclajeApp.Api.Errors;
 using ReciclajeApp.Application.UseCases.Permissions;
+using ReciclajeApp.Application.UseCases.Roles;
 using ReciclajeApp.Domain.Interfaces.Permissions;
+using ReciclajeApp.Domain.Interfaces.Roles;
 using ReciclajeApp.Infrastructure.Persistence;
 using ReciclajeApp.Infrastructure.Repositories.Permissions;
+using ReciclajeApp.Infrastructure.Repositories.Roles;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +18,9 @@ var connectionString = builder.Configuration.GetConnectionString("Default")
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(connectionString));
 builder.Services.AddScoped<IPermissionRepository, PermissionRepository>();
+builder.Services.AddScoped<IRoleRepository, RoleRepository>();
 builder.Services.AddScoped<PermissionUseCases>();
+builder.Services.AddScoped<RoleUseCases>();
 builder.Services.AddControllers()
     .ConfigureApiBehaviorOptions(options =>
     {
